@@ -1,0 +1,160 @@
+/* fonts */
+@font-face {
+    font-family: 'GothamLight';
+    src: url(./Gotham-Font/GothamLight.ttf);
+    src: url(./Gotham-Font/Gotham-Light.otf)
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url(./Gotham-Font/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url(./Gotham-Font/Gotham-Black.otf);
+}
+
+/* center body & main container */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'GothamLight';
+}
+
+#mainContainer {
+    width: 100%;
+    margin: auto;
+}
+
+/* background images */
+.backgroundImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.tesla1 {
+    background-image: url(../tesla/images/ms-homepage-desktop.jpeg);
+}
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+}
+
+#report2020 {
+    height: 50px;
+    padding-top: 20px;
+    background: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#report2020 a:hover {
+    text-decoration: underline;
+}
+
+/* nav bar */
+#navBar {
+    display: flex;
+    /* width: 100%; */
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#teslaLogo {
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+#menuMiddle {
+    margin: auto;
+    padding-top: 10px;
+}
+
+#menuRight {
+    margin: auto;
+    padding-top: 10px;
+}
+
+.middleButtons, .rightButtons {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.middleButtons:hover, .rightButtons:hover {
+    border: 2em;
+    background: rgba(247, 126, 189, 0.3);
+    border-radius: 30px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+/* middle section, model types */
+#sectionOne {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 125px;
+    text-align: center;
+}
+
+/* middle of body, model text */
+h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0;
+    color: #767676;
+}
+
+p a {
+    color: #767676;
+    text-decoration: underline;
+}
+
+#orderButtons {
+    position: flex;
+    /* width: 100%; */
+    /* justify-content: baseline; */
+    padding-top: 200px;
+    text-transform: uppercase;
+
+    
+}
+
+#orderButtonLeft {
+    background: rgba(0, 0, 0, .3);
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+#orderButtonRight {
+    background: rgba(255,20,147, 0.3);
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+/* links */
+a {
+    color: black;
+    text-decoration: none;
+}
